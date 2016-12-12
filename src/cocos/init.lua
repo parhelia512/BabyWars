@@ -38,6 +38,8 @@ __G__TRACKBACK__ = function(msg)
     return msg
 end
 
+require "cocos.pbc.protobuf"
+
 -- opengl
 require "cocos.cocos2d.Opengl"
 require "cocos.cocos2d.OpenglConstants"
